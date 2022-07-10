@@ -1,4 +1,3 @@
-```python
 import datetime as dt
 import numpy as np
 import pandas_datareader.data as web
@@ -59,4 +58,4 @@ def Rho_put(Price, T, volatility, strike, risk_free):
     return Rho
 Rho_str = -2*Rho_put(Price, T, volatility,25, risk_free)+Rho_put(Price, T, volatility, 30, risk_free)
 print("Rho strategia ", Rho_str)
-```
+
