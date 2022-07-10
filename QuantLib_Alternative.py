@@ -1,4 +1,3 @@
-```python
 #Calcolo alternativo dei prezzi delle opzioni con Quantlib con confronto tra pricing di Black-Scholes e di Black
 
 from QuantLib import *
@@ -175,4 +174,3 @@ str_difference = [("premio",premio_str_diff),("delta",str_delta_diff),("gamma",g
 print ("Differenza per short",*short_difference, sep="\n")
 print ("Differenza per long",*long_difference, sep="\n")
 print ("Differenza per strategia",*str_difference, sep="\n")
-```
