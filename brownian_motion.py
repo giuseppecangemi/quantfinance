@@ -1,5 +1,3 @@
-```python
-
 #MOTO BROWNIANO PER IL SOTTOSTANTE!!!!!
 
 import numpy as np
@@ -45,4 +43,4 @@ plt.show()
 Prezzo_previsto= np.average(S) #prezzo previsto come media di tutte le simulazioni
 print ("Prezzo previsto:", Prezzo_previsto)
 Prezzo_previsto 
-```
+
