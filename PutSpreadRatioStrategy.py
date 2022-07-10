@@ -1,4 +1,4 @@
-```python
+
 
 #PUT SPREAD RATIO
 
@@ -67,4 +67,4 @@ loss = min(Put_spread_ratio_pel)
 print ("maxP&L Put Spread Ratio:" "%.2f" %profit)
 print ("minP&L Put Spread Ratio:" "%.2f" %loss)
 
-```
+
