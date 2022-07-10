@@ -1,4 +1,3 @@
-```python
 import numpy as np
 import scipy.stats
 import math
@@ -109,4 +108,3 @@ Rho_str = -2*Rho_put(Price, T, volatility,25, risk_free)+Rho_put(Price, T, volat
 #print("Rho strategia", Rho_str)
 plt.plot(Price,Rho_str)
 plt.show()
-```
