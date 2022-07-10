@@ -1,4 +1,3 @@
-```python
 #Black&Scholes
 
 import numpy as np
@@ -75,4 +74,3 @@ Discrepancy_short_put = Put_short_b-Put_short_bs
 
 print("Discrepancy_long_put",Discrepancy_long_put)
 print("Discrepancy_short_put",Discrepancy_short_put)
-```
