@@ -1,4 +1,3 @@
-```python
 import numpy as np
 import scipy.stats
 import math
@@ -95,4 +94,3 @@ Rho_str = -2*Rho_put(Price, T, volatility,25, risk_free)+Rho_put(Price, T, volat
 surf = ax.plot_surface(X=Price,Y=T,Z=Rho_str,cmap=cm.coolwarm,linewidth=0, antialiased=False)
 fig.colorbar(surf, shrink=0.5, aspect=10)
 plt.show()
-```
